@@ -8,18 +8,23 @@ namespace ASP_NET_Core_Web_Development_course.Services
 {
     public class SecurityService
     {
-        private List<UserModel> knownUsers = new List<UserModel>();
+        //private List<UserModel> knownUsers = new List<UserModel>();
+
+        private UsersDAO userDao = new UsersDAO();
+
         //ctor to konstruktor
-        public SecurityService()
-        {
-            knownUsers.Add(new UserModel {Id=0, UserName = "Bill", Password = "bigbucks"});
-            knownUsers.Add(new UserModel { Id = 1, UserName = "John", Password = "absolut" });
-            knownUsers.Add(new UserModel { Id = 2, UserName = "Elon", Password = "boomer" });
-        }
+        //public SecurityService()
+        //{
+        //    knownUsers.Add(new UserModel {Id=0, UserName = "Bill", Password = "bigbucks"});
+        //    knownUsers.Add(new UserModel { Id = 1, UserName = "John", Password = "absolut" });
+        //    knownUsers.Add(new UserModel { Id = 2, UserName = "Elon", Password = "boomer" });
+
+        //}
 
         public bool IsValid(UserModel user)
         {
-            return knownUsers.Any(x => x.UserName == user.UserName && x.Password==user.Password);
+            //return knownUsers.Any(x => x.UserName == user.UserName && x.Password==user.Password);
+            return userDao.FindUserByNameAndPassword(user);
         }
     }
 }
