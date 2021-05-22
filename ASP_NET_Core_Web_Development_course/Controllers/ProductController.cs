@@ -3,15 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ASP_NET_Core_Web_Development_course.Models;
+using ASP_NET_Core_Web_Development_course.Services;
 using Microsoft.AspNetCore.Mvc.Diagnostics;
+using Bogus;
 
 namespace ASP_NET_Core_Web_Development_course.Controllers
 {
-    public class ProductsController : Controller
+    public class ProductController : Controller
     {
         public IActionResult Index()
         {
-            return View();
+            HardCodedSampleDataRepository hardCodedSampleDataRepository = new HardCodedSampleDataRepository();
+            return View(hardCodedSampleDataRepository.GetAllProducts());
         }
 
         public IActionResult  Message()
