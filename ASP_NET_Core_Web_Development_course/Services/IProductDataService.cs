@@ -9,7 +9,7 @@ namespace ASP_NET_Core_Web_Development_course.Services
     interface IProductDataService
     {
         List<ProductModel> GetAllProducts();
-        List <ProductModel> SearchProducts();
+        List <ProductModel> SearchProducts(string searchTerm);
         ProductModel GetProductById(int id);
         int Insert(ProductModel product);
         int Delete(ProductModel product);

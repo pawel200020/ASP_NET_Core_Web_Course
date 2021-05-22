@@ -14,13 +14,26 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
     {
         public IActionResult Index()
         {
-            HardCodedSampleDataRepository hardCodedSampleDataRepository = new HardCodedSampleDataRepository();
-            return View(hardCodedSampleDataRepository.GetAllProducts());
+            //HardCodedSampleDataRepository hardCodedSampleDataRepository = new HardCodedSampleDataRepository();
+            //return View(hardCodedSampleDataRepository.GetAllProducts());
+            ProductsDAO products = new ProductsDAO();
+            return View(products.GetAllProducts());
         }
 
+        public IActionResult Search(string searchTerm)
+        {
+            ProductsDAO products = new ProductsDAO();
+            List<ProductModel> productList = products.SearchProducts(searchTerm);
+            return View("index",productList);
+        }
         public IActionResult  Message()
         {
             return View("message");
+        }
+
+        public IActionResult SearchForm()
+        {
+            return View();
         }
 
         public IActionResult Welcome(string name, int secnumber=13)
