@@ -1,9 +1,10 @@
 ﻿using ASP_NET_Core_Web_Development_course.Models;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
+
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace ASP_NET_Core_Web_Development_course.Services
 {
@@ -21,7 +22,7 @@ namespace ASP_NET_Core_Web_Development_course.Services
             
             List <ProductModel> foundProducts = new List <ProductModel>();
             string sqlStatement = "SELECT * FROM dbo.Products";
-            using (SqlConnection connection = new SqlConnection(connectionString)) 
+            SqlConnection connection = new SqlConnection(connectionString);
             {
                 SqlCommand command = new SqlCommand(sqlStatement, connection);
                 try
