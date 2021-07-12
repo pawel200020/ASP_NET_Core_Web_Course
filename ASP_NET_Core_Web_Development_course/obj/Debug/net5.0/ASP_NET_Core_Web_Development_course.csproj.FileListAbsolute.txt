@@ -135,3 +135,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course\obj\Debug\net5.0\Razor\Views\Product\Search.cshtml.g.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course\obj\Debug\net5.0\Razor\Views\Product\SearchForm.cshtml.g.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course\obj\Debug\net5.0\Razor\Views\Shared\_navbar.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course\obj\Debug\net5.0\Razor\Views\Product\ShowDetails.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ASP_NET_Core_Web_Development_course\obj\Debug\net5.0\Razor\Views\Product\CreateForm.cshtml.g.cs

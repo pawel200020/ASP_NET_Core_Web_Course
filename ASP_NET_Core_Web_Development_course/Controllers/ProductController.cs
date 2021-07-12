@@ -42,5 +42,41 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
             ViewBag.Number = secnumber;
             return View();
         }
+
+        public IActionResult ShowDetails(int id)
+        {
+            ProductsDAO product = new ProductsDAO();
+            ProductModel foundProduct = product.GetProductById(id);
+            return View(foundProduct);
+        }
+        public IActionResult Edit(int id)
+        {
+            ProductsDAO product = new ProductsDAO();
+            ProductModel foundProduct = product.GetProductById(id);
+            return View("Edit", foundProduct);
+        }
+        public IActionResult ProcessEdit(ProductModel product)
+        {
+            ProductsDAO products = new ProductsDAO();
+            products.Update(product);
+            return View("Index", products.GetAllProducts());
+        }
+        public IActionResult Delete(int id)
+        {
+            ProductsDAO products = new ProductsDAO();
+            ProductModel product = products.GetProductById(id);
+            products.Delete(product);
+            return View("Index", products.GetAllProducts());
+        }
+        public IActionResult CreateForm()
+        {
+            return View();
+        }
+        public IActionResult ProcessCreate(ProductModel product)
+        {
+            ProductsDAO products = new ProductsDAO();
+            products.Insert(product);
+            return View("Index", products.GetAllProducts());
+        }
     }
 }
