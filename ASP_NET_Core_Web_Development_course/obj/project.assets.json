@@ -6681,9 +6681,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\ASP_NET_Core_Web_Development_course.csproj",
-      "projectName": "ASP_NET_Core_Web_Development_course",
-      "projectPath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\ASP_NET_Core_Web_Development_course.csproj",
+      "projectUniqueName": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\Basic_Products_APP.csproj",
+      "projectName": "Basic_Products_APP",
+      "projectPath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\Basic_Products_APP.csproj",
       "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
       "outputPath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\obj\\",
       "projectStyle": "PackageReference",

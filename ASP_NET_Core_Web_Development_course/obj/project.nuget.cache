@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "71QBZeB6fCVX+1w7/Udxn4zUCLdacEtKxsto6H+a9cyxp4AwIbTudHfPpaTQMYAHVcuMdhIsmYCShD7ko9HIIw==",
+  "dgSpecHash": "n1aX0xAVfb+pZ0dfVM6uqId3GN16CGTOgazhCd31DqLsEQa7feCCN2GTjTGT6KW/IN0qRFFPiR5fRjxBNjxAPw==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\ASP_NET_Core_Web_Development_course.csproj",
+  "projectFilePath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\ASP_NET_Core_Web_Development_course\\Basic_Products_APP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pawel\\.nuget\\packages\\bogus\\33.0.2\\bogus.33.0.2.nupkg.sha512",
     "C:\\Users\\pawel\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
