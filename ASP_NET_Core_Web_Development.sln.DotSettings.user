@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=3BED23AE77CBDC4F9DB334D461906F96/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=3BED23AE77CBDC4F9DB334D461906F96/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3BED23AE77CBDC4F9DB334D461906F96/Name/@EntryValue">Entity_Framework_APP</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3BED23AE77CBDC4F9DB334D461906F96/ProjectGuid/@EntryValue">3C1A8D5CBB494847AAED74CB02101CBE</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">CE29DACDBDCEA542A9ABAB954CC8A1F2</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/Name/@EntryValue">Basic_Products_APP</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/Name/@EntryValue">Entity_Framework_APP</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/ProjectGuid/@EntryValue">3C1A8D5CBB494847AAED74CB02101CBE</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/Name/@EntryValue">CRUD_App_Cars_Without_Auth</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/ProjectGuid/@EntryValue">BA5FC3B755446E43B2F6E1918E550F10</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/Type/@EntryValue">project</s:String></wpf:ResourceDictionary>
