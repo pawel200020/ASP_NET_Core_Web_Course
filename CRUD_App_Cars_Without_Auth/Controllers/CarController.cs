@@ -66,7 +66,7 @@ namespace CRUD_App_Cars_Without_Auth.Controllers
             List<Car> cars = carDao.SeachForName(searchPhrase);
             return View("Index",cars);
         }
-        public ActionResult SearchForCountry(string searchPhrase)
+        public ActionResult SeachForCountry(string searchPhrase)
         {
             CarDAO carDao = new CarDAO();
             List<Car> cars = carDao.SearchForCountry(searchPhrase);
