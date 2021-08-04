@@ -1,0 +1,91 @@
+﻿@model CRUD_App_Cars_Without_Auth.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Car</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Carm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Carm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MPG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MPG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cylinders)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cylinders)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Displacement)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Displacement)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Horsepower)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Horsepower)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Acceleration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Acceleration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Origin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Origin)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
