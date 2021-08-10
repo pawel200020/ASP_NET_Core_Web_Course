@@ -92,7 +92,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.csprojAssemblyReference.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.AssemblyInfoInputs.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.AssemblyInfo.cs
@@ -138,3 +137,4 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\ref\Basic_Products_APP.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.genruntimeconfig.cache
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.csproj.AssemblyReference.cache
