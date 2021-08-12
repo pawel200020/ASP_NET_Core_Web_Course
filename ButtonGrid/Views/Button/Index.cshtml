@@ -1,4 +1,7 @@
-﻿@model IEnumerable<ButtonGrid.Controllers.ButtonModel>
+﻿@using Microsoft.CodeAnalysis.CSharp.Syntax
+@model IEnumerable<ButtonGrid.Controllers.ButtonModel>
+
+
 <style>
     .game-button {
         width: 80px;
@@ -20,12 +23,49 @@
         font-size: 15px;
         text-align: center;
     }
+
     .game-button-image {
         width: 70%
     }
 </style>
 @{
     string[] imgnames = { "blue.png", "green.png", "orange.png", "purple.png" };
+
+}
+
+@functions {
+    private bool AllMatch()
+    {
+        int state0 = 0;
+        int state1 = 0;
+        int state2 = 0;
+        int state3 = 0;
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            @if (@Model.ElementAt(i).State == 0)
+            {
+                state0 += 1;
+            }
+            @if (@Model.ElementAt(i).State == 1)
+            {
+                state1 += 1;
+            }
+            @if (@Model.ElementAt(i).State == 2)
+            {
+                state2 += 1;
+            }
+            @if (@Model.ElementAt(i).State == 3)
+            {
+                state3 += 1;
+            }
+        }
+        @if (state0 == 25 || state1 == 25 || state2 == 25 || state3 == 25)
+        {
+            return true;
+        }
+        return false;
+    }
+
 }
 <form>
     <div class="button-zone">
@@ -35,7 +75,7 @@
             {
                 <div class="line-break"></div>
             }
-            <button class="game-button" name="number" value="@Model.ElementAt(i).Id"type="submit" asp-controller="Button" asp-action="handleButtonClick">
+            <button class="game-button" name="number" value="@Model.ElementAt(i).Id" type="submit" asp-controller="Button" asp-action="handleButtonClick">
                 <img class="game-button-image" src="~/img/@imgnames[Model.ElementAt(i).State]" />
                 <div class="button-class">
                     @Model.ElementAt(i).Id , @Model.ElementAt(i).State
@@ -44,3 +84,11 @@
         }
     </div>
 </form>
+@if (AllMatch())
+{
+    <p>All buttons has the same color. YOU WON</p>
+}
+else
+{
+<p>Match all buttons in one color</p>
+}
