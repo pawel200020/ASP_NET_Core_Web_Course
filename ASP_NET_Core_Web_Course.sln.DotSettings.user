@@ -23,6 +23,10 @@
 	<s:String x:Key="/Default/RunConfigs/Config/=A59F00EF7F26434986F9035A69B3DD9F/Name/@EntryValue">Basic_Products_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=A59F00EF7F26434986F9035A69B3DD9F/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=A59F00EF7F26434986F9035A69B3DD9F/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=BD5A4D98420DD549AD0E7DC4457358EC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=BD5A4D98420DD549AD0E7DC4457358EC/Name/@EntryValue">AjaxDemo_ASP_NET_Core</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=BD5A4D98420DD549AD0E7DC4457358EC/ProjectGuid/@EntryValue">EE5D07C7CF63D74EA7CEF201D08CC0E2</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=BD5A4D98420DD549AD0E7DC4457358EC/Type/@EntryValue">project</s:String>
 	<s:Boolean x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/Type/@EntryValue">project</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=CE29DACDBDCEA542A9ABAB954CC8A1F2/Name/@EntryValue">CRUD_App_Cars_Without_Auth</s:String>
@@ -35,7 +39,7 @@
 	<s:String x:Key="/Default/RunConfigs/Config/=116C69549780F44D90C147830D2A38D2/Type/@EntryValue">project</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=116C69549780F44D90C147830D2A38D2/Name/@EntryValue">Basic_Products_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=116C69549780F44D90C147830D2A38D2/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
-	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">DE71DE2541CA304C9FE9FB382C89DCA4</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">BD5A4D98420DD549AD0E7DC4457358EC</s:String>
 	<s:Boolean x:Key="/Default/RunConfigs/Config/=DB559547BAB63C49A99BBD989E225FFF/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/RunConfigs/Config/=DB559547BAB63C49A99BBD989E225FFF/Name/@EntryValue">Entity_Framework_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=DB559547BAB63C49A99BBD989E225FFF/ProjectGuid/@EntryValue">3C1A8D5CBB494847AAED74CB02101CBE</s:String>

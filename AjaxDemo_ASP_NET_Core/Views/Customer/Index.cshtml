@@ -1,0 +1,32 @@
+﻿@model IEnumerable<AjaxDemo_ASP_NET_Core.Models.CustomerModel>
+
+
+<style>
+    ul {
+        list-style-type: none;
+    }
+
+    #CustomerInfoArea {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+    }
+</style>
+<p>Current Time: @DateTime.Now</p>
+<form asp-action="ShowOnePerson" asp-controller="Customer">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <input class="customer-radio" type="radio" name="Id" id="Id" value="@item.Id" />
+                <label>@item.Name</label>
+            </li>
+        }
+    </ul>
+    <input type="submit" id="SelectCustomer" />
+</form>
+
+<div id="CustomerInfoArea">
+    <p>Info</p>
+</div>
