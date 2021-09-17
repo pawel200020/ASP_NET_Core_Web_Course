@@ -115,3 +115,4 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ref\But
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.genruntimeconfig.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\Razor\Views\Button\Index.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\Razor\Views\Button\showOneButton.cshtml.g.cs

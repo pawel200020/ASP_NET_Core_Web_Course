@@ -32,7 +32,7 @@
     string[] imgnames = { "blue.png", "green.png", "orange.png", "purple.png" };
 
 }
-
+<p>Current Time: @DateTime.Now</p>
 @functions {
     private bool AllMatch()
     {
@@ -75,12 +75,14 @@
             {
                 <div class="line-break"></div>
             }
-            <button class="game-button" name="number" value="@Model.ElementAt(i).Id" type="submit" asp-controller="Button" asp-action="handleButtonClick">
-                <img class="game-button-image" src="~/img/@imgnames[Model.ElementAt(i).State]" />
-                <div class="button-class">
-                    @Model.ElementAt(i).Id , @Model.ElementAt(i).State
-                </div>
-            </button>
+            <div class="oneButton" id=@i>
+                <button class="game-button" name="ButtonNumber" value="@Model.ElementAt(i).Id" type="submit" asp-controller="Button" asp-action="handleButtonClick">
+                    <img class="game-button-image" src="~/img/@imgnames[Model.ElementAt(i).State]" />
+                    <div class="button-class">
+                        @Model.ElementAt(i).Id , @Model.ElementAt(i).State
+                    </div>
+                </button>
+            </div>
         }
     </div>
 </form>
