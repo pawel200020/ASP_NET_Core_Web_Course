@@ -19,9 +19,11 @@ $(function() {
             data: {
                 "ButtonNumber": number
             },
+            //data to teraz plik json 2 częsciwoy
             success: function (data) {
                 console.log(data);
-                $("#" + number).html(data);
+                $("#" + number).html(data.part1);
+                $("#messageArea").html(data.part2);
             }
     })
     }

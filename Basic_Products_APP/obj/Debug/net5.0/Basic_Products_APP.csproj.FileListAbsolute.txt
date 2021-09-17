@@ -138,3 +138,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.genruntimeconfig.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.csproj.AssemblyReference.cache
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Razor\Views\Product\_productCard.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Razor\Views\Product\_modaldetails.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Razor\Views\Product\_modaledit.cshtml.g.cs

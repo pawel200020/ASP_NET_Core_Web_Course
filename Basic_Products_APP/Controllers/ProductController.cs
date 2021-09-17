@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Threading.Tasks;
 using ASP_NET_Core_Web_Development_course.Models;
 using ASP_NET_Core_Web_Development_course.Services;
@@ -49,6 +50,22 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
             ProductModel foundProduct = product.GetProductById(id);
             return View(foundProduct);
         }
+
+
+        public IActionResult ShowDetailsJson(int id)
+        {
+            ProductsDAO product = new ProductsDAO();
+            ProductModel foundProduct = product.GetProductById(id);
+            return Json(foundProduct);
+        }
+        public IActionResult ProcessEditReturnPartial(ProductModel product)
+        {
+            ProductsDAO products = new ProductsDAO();
+            products.Update(product);
+            return PartialView("_productCard", product);
+        }
+
+
         public IActionResult Edit(int id)
         {
             ProductsDAO product = new ProductsDAO();

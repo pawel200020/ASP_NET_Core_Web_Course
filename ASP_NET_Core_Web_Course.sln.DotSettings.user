@@ -11,6 +11,10 @@
 	<s:String x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/Name/@EntryValue">Basic_Products_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=3D87B6A7AD126145B5C87305DC0FAB78/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=4039E3B880752348AD5EC86295328073/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=4039E3B880752348AD5EC86295328073/Name/@EntryValue">AjaxDemo_ASP_NET_Core</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=4039E3B880752348AD5EC86295328073/ProjectGuid/@EntryValue">EE5D07C7CF63D74EA7CEF201D08CC0E2</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=4039E3B880752348AD5EC86295328073/Type/@EntryValue">project</s:String>
 	<s:Boolean x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/Name/@EntryValue">Entity_Framework_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=4D05FFDEB9C0224B8B9BED8B33008850/ProjectGuid/@EntryValue">3C1A8D5CBB494847AAED74CB02101CBE</s:String>
@@ -27,6 +31,10 @@
 	<s:String x:Key="/Default/RunConfigs/Config/=8A7324BDB294ED41B27AD82F670C53B7/Name/@EntryValue">Basic_Products_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=8A7324BDB294ED41B27AD82F670C53B7/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=8A7324BDB294ED41B27AD82F670C53B7/Type/@EntryValue">project</s:String>
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=9E0C33E94223E8499AA5433D6ABBAE99/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=9E0C33E94223E8499AA5433D6ABBAE99/Name/@EntryValue">Basic_Products_APP</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=9E0C33E94223E8499AA5433D6ABBAE99/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=9E0C33E94223E8499AA5433D6ABBAE99/Type/@EntryValue">project</s:String>
 	<s:Boolean x:Key="/Default/RunConfigs/Config/=A59F00EF7F26434986F9035A69B3DD9F/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/RunConfigs/Config/=A59F00EF7F26434986F9035A69B3DD9F/Name/@EntryValue">Basic_Products_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=A59F00EF7F26434986F9035A69B3DD9F/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
@@ -47,7 +55,7 @@
 	<s:String x:Key="/Default/RunConfigs/Config/=116C69549780F44D90C147830D2A38D2/Type/@EntryValue">project</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=116C69549780F44D90C147830D2A38D2/Name/@EntryValue">Basic_Products_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=116C69549780F44D90C147830D2A38D2/ProjectGuid/@EntryValue">6FBEC738E9F7374C9D27AC7B71D18C90</s:String>
-	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">02C1CD7D26742E40AF50A508EC569A43</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">9E0C33E94223E8499AA5433D6ABBAE99</s:String>
 	<s:Boolean x:Key="/Default/RunConfigs/Config/=DB559547BAB63C49A99BBD989E225FFF/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/RunConfigs/Config/=DB559547BAB63C49A99BBD989E225FFF/Name/@EntryValue">Entity_Framework_APP</s:String>
 	<s:String x:Key="/Default/RunConfigs/Config/=DB559547BAB63C49A99BBD989E225FFF/ProjectGuid/@EntryValue">3C1A8D5CBB494847AAED74CB02101CBE</s:String>
