@@ -25,9 +25,9 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
         {
             ProductsDAO products = new ProductsDAO();
             List<ProductModel> productList = products.SearchProducts(searchTerm);
-            return View("index",productList);
+            return View("index", productList);
         }
-        public IActionResult  Message()
+        public IActionResult Message()
         {
             return View("message");
         }
@@ -37,7 +37,7 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
             return View();
         }
 
-        public IActionResult Welcome(string name, int secnumber=13)
+        public IActionResult Welcome(string name, int secnumber = 13)
         {
             ViewBag.Name = name;
             ViewBag.Number = secnumber;
