@@ -68,6 +68,36 @@ namespace ButtonGrid.Controllers
             return PartialView(buttons.ElementAt(ButtonNumber));
         }
 
+        public IActionResult rightClickShowOneButton(int ButtonNumber)
+        {
+            buttons.ElementAt(ButtonNumber).State = 0;
+            string buttonString = RenderRazorViewToString(this, "showOneButton", buttons.ElementAt(ButtonNumber));
+            //zrzucamy widok do stringa bo chcemy updatować 2 elementy na stronie, które złączamy w package i wysysłamy do pliku json
+            bool isWin = true;
+            for (int i = 0; i < buttons.Count; i++)
+            {
+                if (buttons.ElementAt(i).State != buttons.ElementAt(0).State)
+                {
+                    isWin = false;
+                }
+            }
+
+            string messageString = "";
+            if (isWin)
+            {
+                messageString = "<p>Congratulations. All buttons match </p>";
+            }
+            else
+            {
+                messageString = "<p>Match all buttons </p>";
+            }
+
+            var package = new { part1 = buttonString, part2 = messageString };
+            return Json(package);
+
+            return PartialView(buttons.ElementAt(ButtonNumber));
+        }
+
         public static string RenderRazorViewToString(Controller controller, string viewName, object model = null)
         {
             controller.ViewData.Model = model;

@@ -4,18 +4,44 @@
 // Write your JavaScript code.
 $(function() {
     console.log("page is ready");
-    $(document).on("click", ".game-button", function (event) {
-        event.preventDefault();
-        var number = $(this).val();
-        console.log(number);
-        doBottonUpdate(number);
-    })
 
-    function doBottonUpdate (number) {
+    //$(document).on("click", ".game-button", function (event) {
+    //    event.preventDefault();
+    //    var number = $(this).val();
+    //    console.log(number);
+    //    doBottonUpdate(number);
+    //})
+
+    $(document).on("mousedown", ".game-button", function (event) {
+        event.preventDefault();
+        switch (event.which) {
+            case 1:
+                var number = $(this).val();
+                console.log(number);
+                doBottonUpdate(number, '/Button/showOneButton');
+                break;
+            case 2:
+                alert("middle");
+                break;
+            case 3:
+                var number = $(this).val();
+                console.log(number);
+                doBottonUpdate(number, '/Button/rightClickShowOneButton');
+                break;
+            default:
+                alert("nothing");
+        }
+    })
+    //disable context menu
+    $(document).bind("contextmenu", function (e) {
+        e.preventDefault();
+        console.log("prevented")
+    })
+    function doBottonUpdate (number, urlString) {
         $.ajax({
             datatype: "json",
             method: 'POST',
-            url: '/Button/showOneButton',
+            url: urlString,
             data: {
                 "ButtonNumber": number
             },
