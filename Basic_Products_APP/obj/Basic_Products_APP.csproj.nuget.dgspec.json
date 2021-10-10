@@ -10,16 +10,12 @@
         "projectUniqueName": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\Basic_Products_APP\\Basic_Products_APP.csproj",
         "projectName": "Basic_Products_APP",
         "projectPath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\Basic_Products_APP\\Basic_Products_APP.csproj",
-        "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\p1\\.nuget\\packages\\",
         "outputPath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\Basic_Products_APP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pawel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\p1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -48,6 +44,10 @@
               "target": "Package",
               "version": "[33.0.2, )"
             },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

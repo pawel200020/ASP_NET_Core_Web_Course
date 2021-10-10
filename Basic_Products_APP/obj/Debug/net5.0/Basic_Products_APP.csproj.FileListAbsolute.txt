@@ -141,3 +141,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Razor\Views\Product\_productCard.cshtml.g.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Razor\Views\Product\_modaldetails.cshtml.g.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Razor\Views\Product\_modaledit.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\System.Web.Http.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

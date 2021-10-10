@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = AjaxDemo_ASP_NET_Core
+build_property.ProjectDir = D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\
