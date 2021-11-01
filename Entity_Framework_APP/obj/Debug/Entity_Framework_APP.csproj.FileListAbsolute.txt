@@ -119,7 +119,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\bin\pl\Microso
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.csproj.CoreCompileInputs.cache
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.csproj.CopyComplete
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.csproj.AssemblyReference.cache

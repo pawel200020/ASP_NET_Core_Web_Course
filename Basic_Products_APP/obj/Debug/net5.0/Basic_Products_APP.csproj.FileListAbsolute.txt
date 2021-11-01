@@ -144,3 +144,5 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\System.Net.Http.Formatting.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\System.Web.Http.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\NLog.config
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\NLog.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SeltA0zuGAEP4Gt98kC3KwWdExSVvq7bKMU0DN2ELnEphntSy1u0+ClA5Pk+b0dGD+z7RGCo1A4gSsc1WdCr9Q==",
+  "dgSpecHash": "6C/gLyh4yVMutjd33/iuIygqrDatvZ8MOhFyBfl4ATR6Y821ekWb86hXisydLMMg4z6ps5+9xV4C7a/YyuNAUw==",
   "success": true,
   "projectFilePath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\Basic_Products_APP\\Basic_Products_APP.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,9 @@
     "C:\\Users\\p1\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\p1\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\p1\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\p1\\.nuget\\packages\\nlog\\4.7.12\\nlog.4.7.12.nupkg.sha512",
+    "C:\\Users\\p1\\.nuget\\packages\\nlog.config\\4.7.12\\nlog.config.4.7.12.nupkg.sha512",
+    "C:\\Users\\p1\\.nuget\\packages\\nlog.schema\\4.7.12\\nlog.schema.4.7.12.nupkg.sha512",
     "C:\\Users\\p1\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\p1\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\p1\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

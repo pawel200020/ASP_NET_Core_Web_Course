@@ -80,7 +80,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\bin\pl\S
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\bin\pl\System.Web.WebPages.Deployment.resources.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\bin\pl\System.Web.WebPages.Razor.resources.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\obj\Debug\CRUD_App_Cars_Without_Auth.csproj.CoreCompileInputs.cache
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\obj\Debug\CRUD_App_Cars_Without_Auth.csproj.CopyComplete
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\obj\Debug\CRUD_App_Cars_Without_Auth.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\obj\Debug\CRUD_App_Cars_Without_Auth.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\CRUD_App_Cars_Without_Auth\obj\Debug\CRUD_App_Cars_Without_Auth.csproj.AssemblyReference.cache
