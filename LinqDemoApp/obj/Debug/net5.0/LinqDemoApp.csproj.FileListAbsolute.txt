@@ -1,0 +1,17 @@
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\LinqDemoApp.exe
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\LinqDemoApp.deps.json
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\LinqDemoApp.runtimeconfig.json
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\LinqDemoApp.runtimeconfig.dev.json
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\LinqDemoApp.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\ref\LinqDemoApp.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\LinqDemoApp.pdb
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.csproj.AssemblyReference.cache
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.AssemblyInfoInputs.cache
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.AssemblyInfo.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.csproj.CoreCompileInputs.cache
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\ref\LinqDemoApp.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.pdb
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\obj\Debug\net5.0\LinqDemoApp.genruntimeconfig.cache
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\LinqDemoApp\bin\Debug\net5.0\Newtonsoft.Json.dll
