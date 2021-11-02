@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Oy8rE6Lyuta7Rv1oFiFGrPJyHEpqjLaETjyOhDnJW4enjKgQFfNMBxa417GkxFHrp9Wez8XKocgpxWPp6XYMGg==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\Web_Dev\\ASP_NET_Core_Web_Development\\VideoGameDependency\\VideoGameDependency.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\p1\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "C:\\Users\\p1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
