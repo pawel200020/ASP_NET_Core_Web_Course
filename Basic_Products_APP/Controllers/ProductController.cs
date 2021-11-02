@@ -13,18 +13,21 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
 {
     public class ProductController : Controller
     {
+        ProductsDAO repository;
+        ProductController()
+        {
+            repository = new ProductsDAO();
+        }
         public IActionResult Index()
         {
             //HardCodedSampleDataRepository hardCodedSampleDataRepository = new HardCodedSampleDataRepository();
-            //return View(hardCodedSampleDataRepository.GetAllProducts());
-            ProductsDAO products = new ProductsDAO();
-            return View(products.GetAllProducts());
+            //return View(hardCodedSampleDataRepository.GetAllProducts());            
+            return View(repository.GetAllProducts());
         }
 
         public IActionResult Search(string searchTerm)
         {
-            ProductsDAO products = new ProductsDAO();
-            List<ProductModel> productList = products.SearchProducts(searchTerm);
+            List<ProductModel> productList = repository.SearchProducts(searchTerm);
             return View("index", productList);
         }
         public IActionResult Message()
@@ -46,44 +49,38 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
 
         public IActionResult ShowDetails(int id)
         {
-            ProductsDAO product = new ProductsDAO();
-            ProductModel foundProduct = product.GetProductById(id);
+            ProductModel foundProduct = repository.GetProductById(id);
             return View(foundProduct);
         }
 
 
         public IActionResult ShowDetailsJson(int id)
         {
-            ProductsDAO product = new ProductsDAO();
-            ProductModel foundProduct = product.GetProductById(id);
+            ProductModel foundProduct = repository.GetProductById(id);
             return Json(foundProduct);
         }
         public IActionResult ProcessEditReturnPartial(ProductModel product)
         {
-            ProductsDAO products = new ProductsDAO();
-            products.Update(product);
+            repository.Update(product);
             return PartialView("_productCard", product);
         }
 
 
         public IActionResult Edit(int id)
         {
-            ProductsDAO product = new ProductsDAO();
-            ProductModel foundProduct = product.GetProductById(id);
+            ProductModel foundProduct = repository.GetProductById(id);
             return View("Edit", foundProduct);
         }
         public IActionResult ProcessEdit(ProductModel product)
         {
-            ProductsDAO products = new ProductsDAO();
-            products.Update(product);
-            return View("Index", products.GetAllProducts());
+            repository.Update(product);
+            return View("Index", repository.GetAllProducts());
         }
         public IActionResult Delete(int id)
         {
-            ProductsDAO products = new ProductsDAO();
-            ProductModel product = products.GetProductById(id);
-            products.Delete(product);
-            return View("Index", products.GetAllProducts());
+            ProductModel product = repository.GetProductById(id);
+            repository.Delete(product);
+            return View("Index", repository.GetAllProducts());
         }
         public IActionResult CreateForm()
         {
@@ -91,9 +88,8 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
         }
         public IActionResult ProcessCreate(ProductModel product)
         {
-            ProductsDAO products = new ProductsDAO();
-            products.Insert(product);
-            return View("Index", products.GetAllProducts());
+            repository.Insert(product);
+            return View("Index", repository.GetAllProducts());
         }
     }
 }
