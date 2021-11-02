@@ -6,7 +6,7 @@ using ASP_NET_Core_Web_Development_course.Models;
 
 namespace ASP_NET_Core_Web_Development_course.Services
 {
-    interface IProductDataService
+    public interface IProductDataService
     {
         List<ProductModel> GetAllProducts();
         List <ProductModel> SearchProducts(string searchTerm);

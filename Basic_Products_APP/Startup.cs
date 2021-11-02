@@ -1,3 +1,4 @@
+using ASP_NET_Core_Web_Development_course.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +24,8 @@ namespace ASP_NET_Core_Web_Development_course
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IProductDataService, ProductsDAO>();
+
             services.AddControllersWithViews();
             services.AddDistributedMemoryCache();
 

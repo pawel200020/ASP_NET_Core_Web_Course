@@ -13,10 +13,12 @@ namespace ASP_NET_Core_Web_Development_course.Controllers
 {
     public class ProductController : Controller
     {
-        ProductsDAO repository;
-        ProductController()
+        //ProductsDAO repository;
+        //HardCodedSampleDataRepository repository;
+        public IProductDataService repository { get; set; }
+        public ProductController(IProductDataService dataService)
         {
-            repository = new ProductsDAO();
+            repository = dataService;
         }
         public IActionResult Index()
         {
