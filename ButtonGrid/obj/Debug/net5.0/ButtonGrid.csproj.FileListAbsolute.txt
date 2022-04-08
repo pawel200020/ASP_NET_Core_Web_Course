@@ -5,7 +5,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonG
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.runtimeconfig.json
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.runtimeconfig.dev.json
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.dll
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ref\ButtonGrid.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.Views.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.Views.pdb
@@ -94,7 +93,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonG
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.RazorAssemblyInfo.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.RazorAssemblyInfo.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\staticwebassets\ButtonGrid.StaticWebAssets.Manifest.cache
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\staticwebassets\ButtonGrid.StaticWebAssets.xml
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\scopedcss\bundle\ButtonGrid.styles.css
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.TagHelpers.input.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.TagHelpers.output.cache
@@ -116,3 +114,5 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonG
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\ButtonGrid.genruntimeconfig.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\Razor\Views\Button\Index.cshtml.g.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\Razor\Views\Button\showOneButton.cshtml.g.cs
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\bin\Debug\net5.0\ButtonGrid.StaticWebAssets.xml
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\ButtonGrid\obj\Debug\net5.0\refint\ButtonGrid.dll

@@ -5,7 +5,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.runtimeconfig.json
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.runtimeconfig.dev.json
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.dll
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\ref\Basic_Products_APP.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.pdb
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.Views.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.Views.pdb
@@ -100,7 +99,6 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.RazorAssemblyInfo.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.RazorAssemblyInfo.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\staticwebassets\Basic_Products_APP.StaticWebAssets.Manifest.cache
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\staticwebassets\Basic_Products_APP.StaticWebAssets.xml
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\scopedcss\bundle\Basic_Products_APP.styles.css
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.TagHelpers.input.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\Basic_Products_APP.TagHelpers.output.cache
@@ -146,3 +144,5 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\NLog.config
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\NLog.dll
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\bin\Debug\net5.0\Basic_Products_APP.StaticWebAssets.xml
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Basic_Products_APP\obj\Debug\net5.0\refint\Basic_Products_APP.dll
