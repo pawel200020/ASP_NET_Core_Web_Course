@@ -114,5 +114,4 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\obj\Debug\net
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\obj\Debug\net5.0\AjaxDemo_ASP_NET_Core.genruntimeconfig.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\obj\Debug\net5.0\Razor\Views\Customer\ShowOnePerson.cshtml.g.cs
-D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\bin\Debug\net5.0\AjaxDemo_ASP_NET_Core.StaticWebAssets.xml
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\AjaxDemo_ASP_NET_Core\obj\Debug\net5.0\refint\AjaxDemo_ASP_NET_Core.dll

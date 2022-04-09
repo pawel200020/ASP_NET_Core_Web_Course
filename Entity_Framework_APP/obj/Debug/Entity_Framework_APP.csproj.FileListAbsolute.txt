@@ -125,3 +125,4 @@ D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Enti
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.Migrations.InitialState.resources
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.csproj.GenerateResource.cache
 D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.Migrations.FillDatabase.resources
+D:\Code\Web_Dev\ASP_NET_Core_Web_Development\Entity_Framework_APP\obj\Debug\Entity_Framework_APP.csproj.CopyComplete
